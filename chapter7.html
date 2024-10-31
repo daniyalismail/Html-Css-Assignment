@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter 7</title>
+  </head>
+  <body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form action="www.example.com">
+      <fieldset>
+        <legend>Your Details</legend>
+        <p>
+          Name
+          <input type="text" name="First Name" size="30" required />
+        </p>
+        <p>
+          Email
+          <input type="email" name="email" required />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+        <p>How did you hear about us?
+        <select name="refrence" required>
+          <option value="Google">Google</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Instagram">Instagram</option>
+        </select>
+    </p>
+    <p>Would you visit again?</p>
+        <label>
+            <p>
+        <input type="radio" name="Options" id="Yes">Yes
+    </label>
+    <label>    
+    <input type="radio" name="Options" id="No">No
+</label>  
+<label>    
+<input type="radio" name="Options" id="Maybe">Maybe
+    </label>
+    </p>
+    <p>Comments</p>
+    <textarea name="Comments" rows="4" cols="50"></textarea>
+    <p>
+    <input type="checkbox" name="signup">Sign me up for email updates
+</p> 
+<p>    
+<button type="submit" value="Submit">
+        Submit Review
+     </button>
+    </p>  
+    </fieldset>
+    </form>
+  </body>
+</html>

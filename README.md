@@ -1,1 +1,1 @@
-This Is The Assignment Made From Sir Ameen Alam Repository Of Html-Css Assignments. All The Chapters are included Except The Final Assignment Because I Am A beginner in css so i am currently focusing on that and will be groping my skills in css and will Make that final assignment soon Inshallah
+This Is The Assignment Made From Sir Ameen Alam Repository Of Html-Css Assignments. All The Chapters are included The Final Assignment

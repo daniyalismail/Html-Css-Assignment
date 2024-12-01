@@ -12,7 +12,7 @@ body{
     display: flex;
     margin: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .right{
     height:90%;
@@ -66,6 +66,10 @@ body{
     justify-content: center;
     margin-bottom: 10px;
 }
+.p1{
+    display: flex;
+    align-items: center;
+}
 .header-extended {
     display: flex;
     height: 40px;
@@ -74,6 +78,7 @@ body{
     color: white;
     justify-content: space-between;
 }
+
 .main-header{
     width: 100%;
     height: 60px;
@@ -567,6 +572,9 @@ body{
 .bottom-h6 i{
     transform: scaleX(-1);
 }
+.hero-6-left p{
+    width: 70%;
+}
 footer{
     display: flex;
     margin-top: -7px;
@@ -583,9 +591,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     margin-left: 130px;
-}
-.hero-6-left p{
-    width: 70%;
 }
 .services{
     width: 15%;
@@ -683,4 +688,63 @@ footer{
     display: flex;
     justify-content: space-evenly;
     width: 60%;
+}
+/* Only Header extended responsiveness */
+@media screen and (max-width:1200px){
+    .left{
+        justify-content: center;
+        width: 100%;
+        background-color: #668E19;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .right{
+        justify-content: center;
+        width: 100%;
+        background-color: #668E19;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+   .header-extended{
+        font-size: x-small;    
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .call-button{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .main-header-rs a{
+        font-size: small;
+    }
+}
+/* Only header extended responsiveness */
+@media screen and (max-width: 400px) {
+    .left{
+        height: 100%;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .right{
+        height: 100%;
+        flex-direction:column;
+        justify-content: flex-start;
+        margin-top: -10px;
+    }
+    .p1{
+        margin-bottom: 5px;
+    }
+    .call-button button{
+        font-size: xx-small;
+    }
+    .call-button{
+        font-size: xx-small;
+        height: 45%;
+        width: 30%;
+    }
+}
+@media  screen and (max-width: 1035px){
+    
 }

@@ -698,6 +698,7 @@ footer{
         margin-left: 0px;
     }
     .right{
+        text-decoration:none !important;
         justify-content: center;
         width: 100%;
         margin-right: 0px;
@@ -709,6 +710,9 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .call-button button{
+        color: #212121;
     }
     .call-button{
         margin-right: 0px;
@@ -726,6 +730,7 @@ footer{
         margin-top: 0px;
     }
     .right{
+        text-decoration: none;
         height: 100%;
         flex-direction:column;
         justify-content: flex-start;
@@ -735,6 +740,7 @@ footer{
         margin-bottom: 5px;
     }
     .call-button button{
+        color: #212121;
         font-size: xx-small;
     }
     .call-button{

@@ -120,17 +120,18 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     height:550px;
     width: 100%;
     background-color: #8DC63F;
 }
 .main-heading{
-    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .hero-1 h1{
     display: flex;
@@ -140,15 +141,21 @@ body{
     font-size: 5em;
     justify-content: center;
 }
+.para{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .main-heading p{
-    width: 500px;
+    width: 90%;
     text-align: center;
     color: #FFFFFF;
     text-align-last: center;
+    font-size: 120%;
 }
 .main-heading button{
     height: 40px;
-    width: 200px;
+    width: 19%;
     margin-top: 30px;
     border: none;
     cursor: pointer;
@@ -156,20 +163,22 @@ body{
     background-color: #FFBD1A;
     border-radius: 5px;
     box-shadow: 0px 2px 0px #FF831D;
-    font-size: large;
+    font-size: 110%;
 }
 .hero-2{
     display: flex;
     flex-direction: column;
-    height:550px;
-    width: 100%;
-    background-color:#FFFFFF;
+    height:auto;
+    width: auto;
+    background-color: #FF FFFF;
     justify-content: space-evenly;
 }
 .top-section{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom:20px;
 } 
 .top-section h1{
     font-size: 3em;
@@ -177,9 +186,15 @@ body{
 .top-section span{
     color: #668E19;
 }
+.para2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .top-section p{
-    width: 50em;
+    width: 80%;
     text-align: center;
+    text-align-last: center;
 }
 .hero-2 p{
     color: #BCBEC0;
@@ -187,13 +202,15 @@ body{
 .bottom-section p{
     text-align: center;
     text-align-last: center;
-    width: 20em;
+    width: auto;
 }
 .bottom-section{
+    margin:20px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .hero-2 img{
     height: 75px;
@@ -245,31 +262,45 @@ body{
     border-radius: 50%;
 }
 .innovation{
+    margin: 40px;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
 }
 .experience{
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 40px;
 }
 .happy-clients{
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 40px;
 }
 .quality{
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 40px;
 }
 .support{
+    margin: 40px;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,12 +313,14 @@ body{
     font-size: large;
 }
 .top-right{
+    height: 550px;
+    width: auto;
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    z-index: 0;
     height: 550px;
-    width:50%;
+    width:auto;
     background-size: cover;
 }
 .top{
@@ -297,58 +330,11 @@ body{
 .top h1{
     font-size: 3em;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-top: 15px;
 }
-.hero-3{
-    height: 550px;
-    width: 100%;
-    background-color: #F1F2F2;
-    display: flex;
-    flex-direction: column;
-}
-.bottom-hero3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.top span{
-    color: #668E19;
-}
-.top-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 80%;
-    width: 50%;
-    justify-content: center;
-    font-size: medium;
-    margin-top: 18px;
-}
-.hero-3 button{
-    margin-top: 40px;
-    background-color: #FFBD1A;
-    box-shadow: 0px 2px 0px #FF831D;
-    border: none;
-    cursor: pointer;
-    border-radius: 2.5% 2.5% 2.5% 2.5%;
-    height: 2.5em;
-    width: 12em;
-    position: relative;
-    right: 280px;
-    font-size: large;
-    font-weight: 500;
-}
-.top-left p{
-    margin-bottom: -1px;
-    line-height: 1.1em;
-    padding: 0px;
-    position: relative;
-    z-index: 1;
-    width: 80%;
-}
 .hero-4{
-    height: 550px;
+    height: auto;
     width: 100%;
     background-color:white ;
     display: flex;
@@ -365,35 +351,36 @@ body{
     height: 70%;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .box-1{
-    height: 70%;
-    width: 15%;
+    height: 300px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .box-2{
-    height: 70%;
-    width: 15%;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .box-3{
-    height: 70%;
-    width: 15%;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .box-4{
-    height: 70%;
-    width: 15%;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -519,7 +506,6 @@ body{
 .bottom-h5{
     width: 60%;
     text-align: center;
-    margin-top: -50px;
     color: #FFFFFF;
 }
 .hero-6{
@@ -527,8 +513,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color:white;
 }
 .hero-6 span{
@@ -538,7 +524,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -30px;
 }
 .top-h6 p{
     text-align: center;
@@ -548,11 +533,29 @@ body{
 .top-h6 h1{
     font-size: 3em;
 }
+.div1{
+    display: flex;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    align-items: center;
+}
+.div3{
+    display: flex;
+    align-items: center;
+}
 .middle-h6{
+    width: 80%;
+    height: auto;
+    background-color:aqua ;
+    text-align: center;
+    text-align-last: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .hero-6 i{
     margin-right: 5px;
@@ -560,14 +563,17 @@ body{
 }
 .bottom-h6{
     width: 100%;
+    height: auto;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -2.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 .bottom-h6 p{
-    margin-right: 100px;
+    margin-right: 10px;
 }
 .bottom-h6 i{
     transform: scaleX(-1);
@@ -577,36 +583,49 @@ body{
 }
 footer{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: -7px;
     background-color:#668E19 ;
-    height: 400px;
-    width: 100%;
-    justify-content: space-evenly;
+    height:auto;
+    width: auto;
     color: #FFFFFF;
 }
 .hero-7-left{
-    height: 100%;
+    margin: 20px;
+    background-color: #ED7C76;
+    height: 80%;
     width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 130px;
 }
 .services{
+    background-color: #FFBD1A;
     width: 15%;
     height: 85%;
     display: flex;
     flex-direction: column;
     align-items: flex-start ;
 }
-.r-h7 p{
+.services p{
+    line-height:40px; 
+}
+.useful-links p{
+    line-height: 40px;
+}
+.contact-follow p{
+    line-height: 40px;
+}
+/* .r-h7 p{
     line-height:40px;
 }
 .r-h7 h1{
-    margin-bottom: 10px;
-}
+      margin-bottom: 10px;
+} */
 .useful-links{
-    width: 40%;
+    background-color: #BCBEC0;
+    width: 25%;
     height: 85%;
     display: flex;
     flex-direction: column;
@@ -621,6 +640,7 @@ footer{
     align-items: flex-start;
 }
 .contact-follow{
+    background-color: aqua;
     width: 20%;
     height: 85%;
     display: flex;
@@ -662,18 +682,6 @@ footer{
     align-items: center;
     display: flex;
 }
-/* .left i{
-    height: 25px;
-    width: 25px;
-    margin: 5px;
-    border-radius: 100%;
-    color: #BCBEC0;
-    background-color: #303030;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-} */
 .follow-us i{
     height: 25px;
     width: 25px;
@@ -741,14 +749,141 @@ footer{
     }
     .call-button button{
         color: #212121;
-        font-size: xx-small;
+    }
+    .right button{
+        font-size: smaller;
     }
     .call-button{
-        font-size: xx-small;
         height: 45%;
         width: 30%;
     }
 }
-@media  screen and (max-width: 1035px){
-    
+@media  screen and (max-width: 800px){
+    .hero-1 span{
+     font-size: 0.6em;   
+    }
+    .para{
+        font-size:smaller;
+    }
+    .main-heading button{
+        font-size: small;
+    }
+}
+@media  screen and (max-width: 570px){
+    .hero-1 span{
+        font-size: 0.4em;   
+       }
+       .para{
+        font-size:x-small;
+       }
+       .main-heading button{
+        font-size: x-small;
+       }
+}
+@media  screen and (max-width: 460px){
+    .top-section h1{
+        font-size: 2em;
+    }
+    .top-section p{
+        font-size: smaller;
+    }
+    .hero-1 span{
+        font-size: 0.3em;   
+   
+    }
+    .para{
+        font-size:xx-small;
+    }
+    /* .main-heading button{
+        font-size:xx-small;
+       } */
+}
+@media  screen and (max-width: 350px){
+    .top-section h1{
+        font-size: 1.5em;
+    }
+    .hero-1 span{
+        font-size: 0.25em;   
+   
+    }
+    .main-heading button{
+        font-size:xx-small;
+       }
+}
+@media screen and (max-width: 1280px) {
+    .bottom-section{
+        flex-wrap: wrap;
+    }
+    .bottom-section p{
+        width: fit-content;
+    }
+}
+@media  screen and (max-width: 1500px){
+    .top h1{
+        font-size: 2em
+    }
+    .top-left{
+        font-size:xx-small;
+    }
+}
+@media  screen and (max-width:1440px) {
+    .top-h5 h1{
+        font-size: 1.3em;
+    }
+    .top-h5{
+        margin: 10px;
+        width:auto;
+        height: auto;
+    }
+}
+@media  screen and (max-width:1060px){
+    .hero-5{
+        height: auto;
+    }
+    .top-h5{
+        width: auto;
+        height: auto;
+    }
+    .top-h5 h1{
+        text-align: center;
+        text-align-last: center;
+        font-size: 0.5em;
+    }
+    .middle-h5 input{
+        margin: 10px;
+    }
+    .middle-h5{
+        height: auto;
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .bottom-h5{
+        margin: 10px;
+        font-size: small;
+        height: auto;
+        width: auto;
+    }
+    .bottom-h6{
+        margin: 10px;
+    }
+}
+@media screen and  (max-width: 480px) {
+ .top-h6 h1{
+    font-size:2.5em;
+    text-align: center;
+    text-align-last: center;
+ }   
+ .top-h6 p{
+    font-size: small;
+ }
+ .bottom-h6{
+    flex-wrap: wrap;
+ }
+}
+@media screen and (max-width:1515px){ 
+    .footer{
+    flex-wrap:wrap ;
+    }
 }

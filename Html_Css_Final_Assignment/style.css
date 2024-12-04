@@ -170,7 +170,7 @@ body{
     flex-direction: column;
     height:auto;
     width: auto;
-    background-color: #FF FFFF;
+    background-color: #FFFFFF;
     justify-content: space-evenly;
 }
 .top-section{
@@ -548,7 +548,6 @@ body{
 .middle-h6{
     width: 80%;
     height: auto;
-    background-color:aqua ;
     text-align: center;
     text-align-last: center;
     display: flex;
@@ -582,51 +581,41 @@ body{
     width: 70%;
 }
 footer{
+    height:auto;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: -7px;
     background-color:#668E19 ;
-    height:auto;
-    width: auto;
     color: #FFFFFF;
 }
 .hero-7-left{
-    margin: 20px;
-    background-color: #ED7C76;
-    height: 80%;
-    width: 25%;
+    height: 85%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 130px;
 }
 .services{
-    background-color: #FFBD1A;
-    width: 15%;
-    height: 85%;
+    width: 30%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start ;
+    align-items: center ;
+    justify-content: center;
 }
-.services p{
-    line-height:40px; 
-}
-.useful-links p{
-    line-height: 40px;
-}
-.contact-follow p{
-    line-height: 40px;
-}
-/* .r-h7 p{
+.r-h7 p{
+    text-align: left;
     line-height:40px;
 }
 .r-h7 h1{
       margin-bottom: 10px;
-} */
+}
 .useful-links{
-    background-color: #BCBEC0;
-    width: 25%;
-    height: 85%;
+    width: 40%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -634,18 +623,20 @@ footer{
     border-right: 2px solid #8DC63F;
 }
 .useful-links p{
-    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: start;
 }
 .contact-follow{
-    background-color: aqua;
-    width: 20%;
-    height: 85%;
+    width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start ;
+    align-items: center ;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
 }
 .copyright{
     margin-top: 60px;
@@ -654,6 +645,7 @@ footer{
     width: 70%;
 }
 .hero-7-left img{
+    margin-top: 8px;
     margin-bottom: 20px;
 }
 .r-h7{
@@ -695,7 +687,7 @@ footer{
 .icons{
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
+    width:100%;
 }
 /* Only Header extended responsiveness */
 @media screen and (max-width:1200px){
@@ -726,9 +718,9 @@ footer{
         margin-right: 0px;
         margin-left: 0px;
     }
-    .main-header-rs a{
+    /* .main-header-rs a{
         font-size: small;
-    }
+    } */
 }
 /* Only header extended responsiveness */
 @media screen and (max-width: 400px) {
@@ -794,9 +786,6 @@ footer{
     .para{
         font-size:xx-small;
     }
-    /* .main-heading button{
-        font-size:xx-small;
-       } */
 }
 @media  screen and (max-width: 350px){
     .top-section h1{
@@ -882,8 +871,65 @@ footer{
     flex-wrap: wrap;
  }
 }
-@media screen and (max-width:1515px){ 
-    .footer{
-    flex-wrap:wrap ;
+@media screen and (max-width:1400px){ 
+    .contact-follow{
+        height: 100%;
+        width: 100%;
+        border-left: 2px solid #8DC63F;
+        border-right: 2px solid #8DC63F;
+    }
+    .hero-7-left img{
+        width: 40%;
+        height: 35%;
+    }
+    .icons{
+        justify-content: space-evenly;
+    }
+    .paragraph{
+        font-size: x-small;
+    }
+    .copyright{
+        font-size: x-small;
+    }
+    .hero-7-left{
+        width: 100%;
+        justify-content: center;
+        margin-left:0px;
+        align-items: center;
+    }
+    .footer p{
+        font-size: x-small;
+    }
+    .contact-follow h1{
+        font-size: medium;
+    }
+
+     .services{
+        display: none;
+     }
+     .useful-links{
+        display: none;
+     }
+}
+ @media screen and (max-width: 1000px){
+    .main-header-rs a{
+        font-size: medium;
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
+@media screen and (max-width: 480px){
+    .main-header-rs a{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 435px){
+    .main-header-rs a{
+        font-size: x-small;
+    }
+}
+@media screen and (max-width: 370px){
+    .main-header-rs a{
+        font-size: xx-small;
     }
 }
